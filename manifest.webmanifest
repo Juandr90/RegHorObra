@@ -1,0 +1,15 @@
+{
+  "name": "Control de jornada",
+  "short_name": "Parte de horas",
+  "description": "Fichar entrada/salida, consultar el historial y exportar a Excel",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#20242A",
+  "theme_color": "#20242A",
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}
