@@ -28,7 +28,7 @@ negro, sin pasos extra.
   "Exportar Excel" (te descarga un `.xlsx`).
 - Si quieres ficharlo desde varios dispositivos y que todos vean lo mismo,
   esta versión no lo permite: haría falta una base de datos en algún
-  servidor. Dímelo si te interesa y lo montamos.
+  servidor.
 - El sitio funciona sin conexión salvo por dos recursos externos: la
   tipografía (Google Fonts) y la librería para generar el Excel (SheetJS,
   vía CDN). Si algún día dejan de estar disponibles, el resto de la app
