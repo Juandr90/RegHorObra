@@ -466,6 +466,7 @@ function attachFormHandlers(){
     const obra = document.getElementById('f-obra').value.trim();
     if(!fecha){ showToast('Falta la fecha'); return; }
     if(!obra){ showToast('Falta el nombre de la obra'); return; }
+    if(!trabajador){ showToast('Falta el nombre de la obra'); return; }
     if(!entradaM.value || !salidaM.value){ showToast('Falta la hora de entrada o salida'); return; }
 
     const r = calcJornada(entradaM.value, salidaM.value,
